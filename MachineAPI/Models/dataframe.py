@@ -1,7 +1,7 @@
 
-import numpy as np
+
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
+
 
 df1 = pd.read_pickle("./models/Anexo_A.pkl")
 df = pd.DataFrame(df1)
